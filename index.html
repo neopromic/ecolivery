@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <title>EcoLivery</title>
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body class="dark:bg-gray-950">
+    <header class="sticky dark:bg-gray-950 bg-white">
+      <nav class="nav h-4xl p-4 items-center">
+        <i class="fa-solid fa-bars dark:text-white text-4xl hover:bg-gray-900 hover:rounded-md p-3 text-green-500" id="menu-ico"></i>
+
+        <h1 class="dark:text-white text-4xl flex justify-center w-full font-extrabold tracking-tight">Home</h1>
+      </nav>
+    </header>
+    <div class="card-container p-4 flex gap-2" id="cards-container">
+      <div class="bg-green-300 w-min flex justify-center items-center gap-2 rounded-md p-3">
+        <i class="fa-solid fa-info "></i>
+        Category
+      </div>
+      <div class="bg-green-300 w-min flex justify-center items-center gap-2 rounded-md p-3">
+        <i class="fa-solid fa-info "></i>
+        Category
+      </div>
+      <div class="bg-green-300 w-min flex justify-center items-center gap-2 rounded-md p-3">
+        <i class="fa-solid fa-info "></i>
+        Category
+      </div>
+
+    </div>
+    <div class="bg-red-600 w-fit h-fit mx-4 rounded-md flex justify-center items-center p-2 gap-2" id="card-01">
+      <i class="fa-solid fa-location-dot text-red-300"></i>
+      <p class="text-red-300">Veja restaurantes veganos em sua região!</p>
+    </div>
+
+    <div class="banners">
+      <div class="bg-green-200 h-20 ml-3 mt-3 mr-3 rounded-md relative">
+        <div class="bg-orange-800 w-min p-2 text-orange-100 absolute mt-2 ml-2 rounded-xl">Hot</div>
+      </div>
+      <div class="bg-green-200 h-20 ml-3 mt-3 mr-3 rounded-md relative">
+        <div class="bg-green-800 w-fit p-2 text-green-100 absolute mt-2 ml-2 rounded-xl">Queridinho da galera</div>
+      </div>
+
+      <div class="bg-green-200 h-20 ml-3 mt-3 mr-3 rounded-md relative">
+        <div class="bg-blue-500 w-fit p-2 text-blue-200 absolute mt-2 ml-2 rounded-xl">Direto do forno!</div>
+      </div>
+      <div class="bg-green-200 h-20 ml-3 mt-3 mr-3 rounded-md relative">
+        <div class="bg-rose-500 w-fit p-2 text-rose-200 absolute mt-2 ml-2 rounded-xl">Especial do dia</div>
+      </div>
+      <div class="bg-green-200 h-20 ml-3 mt-3 mr-3 rounded-md relative">
+        <div class="bg-blue-500 w-fit p-2 text-blue-200 absolute mt-2 ml-2 rounded-xl">Direto do forno!</div>
+      </div>
+      <div class="bg-green-200 h-20 ml-3 mt-3 mr-3 rounded-md relative">
+        <div class="bg-blue-500 w-fit p-2 text-blue-200 absolute mt-2 ml-2 rounded-xl">Veganinho delux</div>
+      </div>
+    </div>
+
+
+    <footer class="dark:bg-gray-800 h-fit w-full bg-white">
+      <div class="base-items justify-center items-center gap-2">
+        <div class="flex items-center  justify-center dark:text-green-50 text-green-600 hover:dark:bg-green-600 hover:bg-green-300 rounded-md p-2 w-20 ">
+          <i class="fa-solid fa-house dark:text-green-200 text-green-700 text-2xl "></i>
+          Home
+        </div>
+        <div class="flex items-center  justify-center dark:text-green-50 text-green-600 hover:dark:bg-green-600 hover:bg-green-300 rounded-md p-2 w-20">
+          <i class="fa-solid fa-cart-shopping dark:text-green-200 text-green-700 text-2xl"></i>
+          Carrinho
+        </div>
+        <div class="flex items-center  justify-center dark:text-green-50 text-green-600 hover:dark:bg-green-600 hover:bg-green-300 rounded-md p-2 w-20">
+          <i class="fa-solid fa-comment dark:text-green-200 text-green-700 text-2xl"></i>
+          Chat
+        </div>
+      </div>
+    </footer>
+    <dialog id="modal" class="">
+      <i class="fa-solid fa-triangle-exclamation"></i>
+      <h4 class="">Ainda não implementado...</h4>
+    </dialog>
+
+  </body>
+
+</html>
