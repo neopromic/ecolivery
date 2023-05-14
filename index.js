@@ -2,7 +2,7 @@ const card = document.getElementById("snippet")
 const modal = document.querySelector("dialog")
 
  card.onclick = function() {
-  modal.modalShow()
+  modal.showModal()
   setTimeout(timeout, 1000)
 }
 
