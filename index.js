@@ -4,7 +4,7 @@ const modal = document.querySelector("dialog")
  card.onclick = function() {
   modal.showModal();
   setTimeout(timeout, 1000);
-  modal.style.display.block()
+  document.getElementById("modal").style.visibility='visible'
 }
 
 function timeout() {
@@ -12,5 +12,5 @@ function timeout() {
 } 
 
 window.onload = function() {
-  document.getElementById("modal").style.visibility= 'block';
+  document.getElementById("modal").style.visibility='hidden';
 }
