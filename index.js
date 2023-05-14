@@ -1,10 +1,11 @@
-const location = document.getElementById("card-01")
+const card = document.getElementById("snippet")
 const modal = document.getElementById("dialog")
 
- location.onclick = function {
+ card.onclick = function() {
   dialog.modalShow()
   setTimeout(timeout, 1000)
 }
+
 function timeout() {
   dialog.close()
 }
