@@ -31,8 +31,8 @@
   flex-direction: column;
   margin-top: 10px;
 }
-dialog::aliceblue{
+dialog::backdrop{
   color: #fff;
   background-color: #1e1e1e;
-  
+
 }
