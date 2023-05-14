@@ -1,5 +1,5 @@
 const card = document.getElementById("snippet")
-const modal = document.getElementById("dialog")
+const modal = document.querySelector("dialog")
 
  card.onclick = function() {
   modal.modalShow()
@@ -7,5 +7,5 @@ const modal = document.getElementById("dialog")
 }
 
 function timeout() {
-  modal.close()
+  modal.close();
 }
