@@ -1,4 +1,4 @@
-const card = document.getElementById("snippet")
+const card = document.getElementById("buttonOpen")
 const modal = document.querySelector("dialog")
 
  card.onclick = function() {
