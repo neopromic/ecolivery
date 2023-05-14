@@ -9,4 +9,8 @@ const modal = document.querySelector("dialog")
 
 function timeout() {
   modal.close();
+} 
+
+window.onload = function() {
+  document.getElementById("modal").style.visibility= 'block';
 }
