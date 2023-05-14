@@ -31,13 +31,3 @@
   flex-direction: column;
   margin-top: 10px;
 }
-#modal::backdrop {
-  color: #fff;
-  background-color: #1e1e1e;
-
-}
-#modal {
-  background-color:#1e1e1e
-  color: #fff;
-  
-}
