@@ -9,16 +9,14 @@
 .banners {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  min-width: 300px;
+
 }
 #menu-ico:hover{
   transform: scale(1.2);
 }
 .card-container img:hover {
   transform: scale(1.1);
-
-}
-.card-container{
 
 }
 .base-items {
